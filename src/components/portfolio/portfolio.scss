@@ -11,7 +11,12 @@
     font-size: 36px;
     @include mobile {
       padding-top: calc(100vh - 50px);
-      font-size: 14px;
+      font-size: 34px;
+    }
+    h1 {
+      @include mobile {
+        font-size: 34px;
+      }
     }
     @include tablet {
       padding-top: calc(100vh - 78px);
@@ -80,8 +85,11 @@
         h2 {
           font-size: 52px;
           @include mobile {
-            font-size: 36px;
+            font-size: 26px;
           }
+        }
+        a {
+          z-index: 999;
         }
         button {
           background-color: purple;

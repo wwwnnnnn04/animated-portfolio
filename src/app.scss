@@ -27,7 +27,7 @@ section {
   }
 }
 @mixin tablet {
-  @media (max-width: 1024px) {
+  @media (min-width: 739px) and (max-width: 1024px) {
     @content;
   }
 }

@@ -16,10 +16,10 @@ export const Navbar = () => {
         </motion.span>
         <div className='social'>
           <a href='https://t.me/www_nnnnn'>
-            <img src='../../../public/telegram.png' alt='telegram' />
+            <img src='/telegram.png' alt='telegram' />
           </a>
           <a href='https://wa.me/79113538218'>
-            <img src='../../../public/whatsapp.png' alt='whatsapp' />
+            <img src='/whatsapp.png' alt='whatsapp' />
           </a>
         </div>
       </div>
